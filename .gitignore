@@ -2,3 +2,4 @@
 *.tfstate.backup
 .terraform
 
+terraform-modules/aws/terraform-provider-aws_5.80.0_linux_arm64.zip
