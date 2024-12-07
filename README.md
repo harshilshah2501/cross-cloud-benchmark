@@ -68,12 +68,12 @@ The **Cross-Cloud Microservices Benchmark Tool** is a comprehensive framework to
 ## Getting Started
 
 ### Prerequisites
-  1 **Terraform: Install Terraform here.
-  2 **HashiCorp Vault: Install Vault here.
-  3 **Docker: Install Docker here.
-  4 **Prometheus and Grafana:
-     - **Prometheus installation guide.
-     - **Grafana installation guide.
+- 1 **Terraform: Install Terraform here.
+- 2 **HashiCorp Vault: Install Vault here.
+- 3 **Docker: Install Docker here.
+- 4 **Prometheus and Grafana:
+-   - **Prometheus installation guide.
+-   - **Grafana installation guide.
 
 ### Repository Structure
 ```plaintext
