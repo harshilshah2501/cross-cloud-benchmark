@@ -1,8 +1,8 @@
-# Cross-Cloud Microservices Benchmark Tool
+# Cross-Cloud Microservices Performance Benchmarking Tool
 
 ## Overview
 
-The **Cross-Cloud Microservices Benchmark Tool** is a comprehensive framework to benchmark the performance of microservices across different cloud providers (CSPs) such as AWS, GCP, and OpenStack. It leverages **Terraform** for vendor-agnostic infrastructure provisioning, **HashiCorp Vault** for secure secret management, and tools like **Prometheus** and **Grafana** for metrics collection and visualization.
+The **Cross-Cloud Microservices Performance Benchmarking Tool** is a comprehensive framework to benchmark the performance of microservices across different cloud providers (CSPs) such as AWS, GCP, and OpenStack. It leverages **Terraform** for vendor-agnostic infrastructure provisioning, **HashiCorp Vault** for secure secret management, and tools like **Prometheus** and **Grafana** for metrics collection and visualization.
 
 ### Key Features
 
