@@ -1,8 +1,0 @@
-subscription_id = "5449ce1b-9084-49ba-bbf6-12e29a1f542d"
-tenant_id       = "82b68dfc-c377-44a8-9921-39e84956a971"
-client_id       = "afb8ad4d-258d-40ad-88a4-4304a37e946a"
-client_secret   = "0308Q~Z~gsJeApHaodfPcbrJsH0Srimmyc7yHa6n"
-admin_username  = "azureadmin"
-admin_password  = "P@ssw0rd123!"
-location        = "westus"
-image_resource_group = "benchmark-resource-group"
