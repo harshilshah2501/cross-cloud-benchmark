@@ -129,14 +129,14 @@ docker run -d -p 50051:50051 grpc-microservice
   **2. Configure Grafana to use Prometheus as a data source.**
 
 ### Usage
-  **1. Run Load Tests:**
-- Use benchmarking tools like k6, wrk, or ghz to simulate traffic and measure performance:
+  1. **Run Load Tests:**
+    - Use benchmarking tools like k6, wrk, or ghz to simulate traffic and measure performance:
 ```bash
 k6 run benchmarks/load_test.js
 ```
-  **2. Monitor Metrics:**
-     - Access Grafana at http://localhost:3000 to view performance dashboards.
-  **3. Analyze Results:**
+  2. **Monitor Metrics:**
+     - *Access Grafana at http://localhost:3000 to view performance dashboards.*
+  3. **Analyze Results:**
      - *Compare latency, throughput, and resource usage across CSPs.*
      - *Generate cost-performance insights.*
 ---
@@ -144,8 +144,8 @@ k6 run benchmarks/load_test.js
 This project is licensed under the MIT License. See the LICENSE file for details.
 ---
 # Acknowledgments
-  - Terraform
-  - HashiCorp Vault
-  - Prometheus
-  - Grafana
-  - Docker
+  - **Terraform**
+  - **HashiCorp Vault**
+  - **Prometheus**
+  - **Grafana**
+  - **Docker**
