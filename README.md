@@ -98,47 +98,47 @@ git clone https://github.com/harshilshah2501/cross-cloud-benchmark-.git
 cd cross-cloud-benchmark
 ```
 ### Step 2: Configure Terraform
-  1. Initialize Terraform:
+  **1. Initialize Terraform:**
 ```bash
 terraform init
 ```
-  2. Apply configurations for AWS, GCP, or OpenStack: 
+  **2. Apply configurations for AWS, GCP, or OpenStack:** 
 ```bash
 terraform apply -var="region=<your-region>"
 ```
 ### Step 3: Configure HashiCorp Vault
-  1. Start Vault:
+  **1. Start Vault:**
  ```bash
  vault server -dev
 ```
-  2. Store CSP credentials securely:
+  **2. Store CSP credentials securely:**
 ```bash
 vault write aws/creds/benchmark access_key=<AWS_ACCESS_KEY> secret_key=<AWS_SECRET_KEY>
 ```
 ### Step 4: Deploy Microservices
-  1. Build and deploy the Docker container:
+  **1. Build and deploy the Docker container:**
 ```bash
 docker build -t grpc-microservice ./microservices
 docker run -d -p 50051:50051 grpc-microservice
 ```
 ### Step 5: Setup Prometheus and Grafana
-  1. Start Prometheus and Grafana using Docker:
+  **1. Start Prometheus and Grafana using Docker:**
  ```bash
  docker-compose up -d
 ```
-  2. Configure Grafana to use Prometheus as a data source.
+  **2. Configure Grafana to use Prometheus as a data source.**
 
 ### Usage
-  1. Run Load Tests:
-     - Use benchmarking tools like k6, wrk, or ghz to simulate traffic and measure performance:
+  **1. Run Load Tests:**
+- Use benchmarking tools like k6, wrk, or ghz to simulate traffic and measure performance:
 ```bash
 k6 run benchmarks/load_test.js
 ```
-  2. Monitor Metrics:
+  **2. Monitor Metrics:**
      - Access Grafana at http://localhost:3000 to view performance dashboards.
-  3. Analyze Results:
-     - Compare latency, throughput, and resource usage across CSPs.
-     - Generate cost-performance insights.
+  **3. Analyze Results:**
+     - *Compare latency, throughput, and resource usage across CSPs.*
+     - *Generate cost-performance insights.*
 ---
 # License
 This project is licensed under the MIT License. See the LICENSE file for details.
